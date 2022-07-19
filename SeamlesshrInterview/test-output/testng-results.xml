@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-19T10:19:29 CEST" name="Suite" finished-at="2022-07-19T10:19:53 CEST" duration-ms="24265">
+    <groups>
+    </groups>
+    <test started-at="2022-07-19T10:19:29 CEST" name="SeamlesshrTest" finished-at="2022-07-19T10:19:53 CEST" duration-ms="24265">
+      <class name="testcases.MyTests">
+        <test-method is-config="true" signature="setUpReport()[pri:0, instance:testcases.MyTests@3ce1e309]" started-at="2022-07-19T10:19:29 CEST" name="setUpReport" finished-at="2022-07-19T10:19:29 CEST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.MyTests@3ce1e309]" started-at="2022-07-19T10:19:29 CEST" name="setUp" finished-at="2022-07-19T10:19:37 CEST" duration-ms="7739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidLoginTestCase()[pri:0, instance:testcases.MyTests@3ce1e309]" started-at="2022-07-19T10:19:37 CEST" name="invalidLoginTestCase" finished-at="2022-07-19T10:19:39 CEST" duration-ms="2186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTestCase -->
+        <test-method is-config="true" signature="afterMyMethod(org.testng.ITestResult)[pri:0, instance:testcases.MyTests@3ce1e309]" started-at="2022-07-19T10:19:39 CEST" name="afterMyMethod" finished-at="2022-07-19T10:19:40 CEST" duration-ms="1292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidLoginTestCase status=SUCCESS method=MyTests.invalidLoginTestCase()[pri:0, instance:testcases.MyTests@3ce1e309] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMyMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.MyTests@3ce1e309]" started-at="2022-07-19T10:19:40 CEST" name="setUp" finished-at="2022-07-19T10:19:50 CEST" duration-ms="9564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validLoginTestCase()[pri:0, instance:testcases.MyTests@3ce1e309]" started-at="2022-07-19T10:19:50 CEST" name="validLoginTestCase" finished-at="2022-07-19T10:19:52 CEST" duration-ms="2612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTestCase -->
+        <test-method is-config="true" signature="afterMyMethod(org.testng.ITestResult)[pri:0, instance:testcases.MyTests@3ce1e309]" started-at="2022-07-19T10:19:52 CEST" name="afterMyMethod" finished-at="2022-07-19T10:19:53 CEST" duration-ms="560" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLoginTestCase status=SUCCESS method=MyTests.validLoginTestCase()[pri:0, instance:testcases.MyTests@3ce1e309] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMyMethod -->
+      </class> <!-- testcases.MyTests -->
+    </test> <!-- SeamlesshrTest -->
+  </suite> <!-- Suite -->
+</testng-results>
